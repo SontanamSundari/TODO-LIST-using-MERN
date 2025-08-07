@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,32 @@
   to {
     transform: rotate(360deg);
   }
+} */
+body {
+  background-color: #f5f7fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+.list-group-item {
+  background-color: #fff;
+  border: 1px solid #e3e3e3;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  padding: 16px;
+}
+
+button {
+  min-width: 90px;
+}
+
+button:hover {
+  opacity: 0.9;
 }
